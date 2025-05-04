@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.ranger.llmoj.judge.codesandbox.CodeSandboxTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in com.ranger.llmoj.judge.codesandbox.CodeSandboxTest
+executeCodeByProxy  Time elapsed: 0.119 s  <<< ERROR!
+cn.hutool.core.io.IORuntimeException: ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCodeByProxy(CodeSandboxTest.java:70)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCodeByProxy(CodeSandboxTest.java:70)
+
+executeCodeByValue  Time elapsed: 0.006 s  <<< ERROR!
+cn.hutool.core.io.IORuntimeException: ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCodeByValue(CodeSandboxTest.java:48)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCodeByValue(CodeSandboxTest.java:48)
+
+executeCode  Time elapsed: 0.006 s  <<< ERROR!
+cn.hutool.core.io.IORuntimeException: ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCode(CodeSandboxTest.java:33)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.ranger.llmoj.judge.codesandbox.CodeSandboxTest.executeCode(CodeSandboxTest.java:33)
+

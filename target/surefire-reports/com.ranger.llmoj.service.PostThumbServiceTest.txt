@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.ranger.llmoj.service.PostThumbServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.ranger.llmoj.service.PostThumbServiceTest
+doPostThumb  Time elapsed: 0.013 s  <<< ERROR!
+com.ranger.llmoj.exception.BusinessException: 请求数据不存在
+	at com.ranger.llmoj.service.PostThumbServiceTest.doPostThumb(PostThumbServiceTest.java:31)
+

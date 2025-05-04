@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ranger.llmoj.manager.CosManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.ranger.llmoj.manager.CosManagerTest
+putObject  Time elapsed: 0.009 s  <<< ERROR!
+com.qcloud.cos.exception.CosClientException: Unable to calculate MD5 hash: test.json (系统找不到指定的文件。)
+	at com.ranger.llmoj.manager.CosManagerTest.putObject(CosManagerTest.java:21)
+Caused by: java.io.FileNotFoundException: test.json (系统找不到指定的文件。)
+	at com.ranger.llmoj.manager.CosManagerTest.putObject(CosManagerTest.java:21)
+

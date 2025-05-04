@@ -1,0 +1,11 @@
+com\ranger\llmoj\judge\codesandbox\CodeSandboxTest.class
+com\ranger\llmoj\manager\CosManagerTest.class
+com\ranger\llmoj\mapper\PostFavourMapperTest.class
+com\ranger\llmoj\MainApplicationTests.class
+com\ranger\llmoj\esdao\PostEsDaoTest.class
+com\ranger\llmoj\service\UserServiceTest.class
+com\ranger\llmoj\service\PostFavourServiceTest.class
+com\ranger\llmoj\service\PostServiceTest.class
+com\ranger\llmoj\service\PostThumbServiceTest.class
+com\ranger\llmoj\utils\EasyExcelTest.class
+com\ranger\llmoj\mapper\PostMapperTest.class

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.ranger.llmoj.service.PostServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.ranger.llmoj.service.PostServiceTest
+searchFromEs  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.data.elasticsearch.UncategorizedElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information; nested exception is ElasticsearchException[java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information]; nested: ExecutionException[java.net.ConnectException: Connection refused: no further information]; nested: ConnectException[Connection refused: no further information];
+	at com.ranger.llmoj.service.PostServiceTest.searchFromEs(PostServiceTest.java:27)
+Caused by: org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.ranger.llmoj.service.PostServiceTest.searchFromEs(PostServiceTest.java:27)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information
+	at com.ranger.llmoj.service.PostServiceTest.searchFromEs(PostServiceTest.java:27)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
