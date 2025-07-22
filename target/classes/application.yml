@@ -1,6 +1,4 @@
 # 公共配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
     name: llmoj-backend
@@ -49,6 +47,7 @@ server:
     context-path: /api
     # cookie 30 天过期
     session:
+      timeout: 120s
       cookie:
         max-age: 2592000
 mybatis-plus:

@@ -15,7 +15,7 @@ spring:
     host: localhost
     port: 6379
     timeout: 5000
-    password: a1596875b
+#    password: a1596875b
   # Elasticsearch 配置
   # function 需替换配置
   elasticsearch:

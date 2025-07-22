@@ -107,7 +107,7 @@ public class WxMpController {
         wxMenuButton1SubButton1.setType(MenuButtonType.VIEW);
         wxMenuButton1SubButton1.setName("跳转页面");
         wxMenuButton1SubButton1.setUrl(
-                "https://yupi.icu");
+                "https://github.com/Ranger643");
         wxMenuButton1.setSubButtons(Collections.singletonList(wxMenuButton1SubButton1));
 
         // 菜单二
@@ -122,8 +122,8 @@ public class WxMpController {
         wxMenuButton3.setName("主菜单三");
         WxMenuButton wxMenuButton3SubButton1 = new WxMenuButton();
         wxMenuButton3SubButton1.setType(MenuButtonType.VIEW);
-        wxMenuButton3SubButton1.setName("编程学习");
-        wxMenuButton3SubButton1.setUrl("https://yupi.icu");
+        wxMenuButton3SubButton1.setName("作者github");
+        wxMenuButton3SubButton1.setUrl("https://github.com/Ranger643");
         wxMenuButton3.setSubButtons(Collections.singletonList(wxMenuButton3SubButton1));
 
         // 设置主菜单

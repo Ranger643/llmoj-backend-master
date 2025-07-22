@@ -47,6 +47,7 @@ server:
     context-path: /api
     # cookie 30 天过期
     session:
+      timeout: 120s
       cookie:
         max-age: 2592000
 mybatis-plus:
