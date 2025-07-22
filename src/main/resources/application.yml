@@ -18,23 +18,17 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/llmoj
-    username: root
-    password: a1596875b
+#    todo 替换数据库配置
+    url:
+    username:
+    password:
   # Redis 配置
   # function 需替换配置，然后取消注释
   redis:
-    database: 1
-    host: localhost
-    port: 6379
-    timeout: 5000
-#    password: a1596875b
-  # Elasticsearch 配置
-  # function 需替换配置，然后取消注释
-#  elasticsearch:
-#    uris: http://localhost:9200
-#    username: root
-#    password: a1596875b
+    database:
+    host:
+    port:
+    timeout:
   # 文件上传
   servlet:
     multipart:
@@ -92,8 +86,9 @@ cos:
 codesandbox:
   type: remote
 # LLM
+# todo 替换配置
 ai:
   deepseek:
-    api-key: "sk-d92a7985c62d42e59d30fd51d10aeece"
-    url: https://api.deepseek.com/v1/chat/completions
+    api-key:
+    url:
 
